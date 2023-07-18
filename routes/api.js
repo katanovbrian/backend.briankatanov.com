@@ -5,6 +5,6 @@ const blogRouter = require('./blog');
 const projectRouter = require('./project');
 
 router.use('/blog', blogRouter);
-router.use('/project', projectRouter);
+router.use('/projects', projectRouter);
 
 module.exports = router;

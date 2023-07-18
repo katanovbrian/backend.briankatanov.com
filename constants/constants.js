@@ -12,6 +12,7 @@ const common = {
     IMAGE_FILE : 'IMAGE_FILE',
 }
 
+
 const errors = {
     BLOG_NOT_FOUND :"Blog Not Found",
     PROJECT_NOT_FOUND :"Project Not Found",
@@ -22,6 +23,10 @@ const errors = {
     ADD_LINK :"Add a link",
     ADD_CONTENT :"Add content",
 }
+const messages = {
+    LOGIN_SUCCESS : '',
+    LOGIN_FAILED : '',
+}
 
 const extensions = {
     JPG : '.jpg',
@@ -30,13 +35,21 @@ const extensions = {
     MD : '.md',
     HTML : '.html',
     HTM : '.htm',
+};
+
+const roles = {
+    admin : 'ADMIN',
+    viewer : 'VIEWER',
+    maintainer : 'MAINTAINER',
 }
 
 const constants = {
     routes,
     common,
     errors,
-    extensions
+    extensions,
+    roles
 };
+
 
 module.exports = constants;
